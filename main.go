@@ -11,15 +11,37 @@ import (
 // func(c *class) methood(){
 
 // }
+// type point struct {
+// 	X int
+
+// 	Y int
+// }
 
 func main() {
-	var b []int
+	list := make([]int, 5, 10)
+	fmt.Println(len(list), cap(list))
 
-	letters := []string{"aad a", "asfdsf", "adsad"}
-	letters[0] = "4"
-	letters = append(letters, "dodo")
-	fmt.Println(letters)
 }
+
+// func pointmapp(){
+// 	pointsMap := map[string]point{}
+// 	// OtherpointMap := make(map[int]point)
+
+// 	pointsMap["adad"] = point{X: 1, Y: 45}
+
+// 	fmt.Println(pointsMap["adad"])
+// }
+// func rangefor()  {
+// 	arr := []int{1, 2, 3, 4, 5, 6}
+
+// 	for _, l := range arr {
+
+// 		if l == 4 {
+// 			fmt.Println(l)
+// 		} else {
+// 			fmt.Println("это не чотыре ")
+// 		}
+// 	}
 
 // func arrays()  {
 // 	var a [2] string
